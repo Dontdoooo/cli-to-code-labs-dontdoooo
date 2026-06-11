@@ -1,0 +1,24 @@
+<inventory>
+    <device>
+        <SITE_NAME>NYC_Site</SITE_NAME>
+        <HOSTNAME>SW-NYC-01</HOSTNAME>
+        <INTERFACE_NAME>Vlan1</INTERFACE_NAME>
+        <IP>10.10.1.11</IP>
+        <SUBNET_MASK>255.255.255.0</SUBNET_MASK>
+        <DEFAULT_GATEWAY>10.10.1.1</DEFAULT_GATEWAY>
+        <VLAN_ID>10</VLAN_ID>
+        <VLAN_NAME>USERS-NYC</VLAN_NAME>
+        <NTP_SERVER>10.0.0.1</NTP_SERVER>
+    </device>
+    <device>
+        <SITE_NAME>LAX_Site</SITE_NAME>
+        <HOSTNAME>SW-LAX-01</HOSTNAME>
+        <INTERFACE_NAME>Vlan1</INTERFACE_NAME>
+        <IP>10.10.2.11</IP>
+        <SUBNET_MASK>255.255.255.0</SUBNET_MASK>
+        <DEFAULT_GATEWAY>10.10.2.1</DEFAULT_GATEWAY>
+        <VLAN_ID>10</VLAN_ID>
+        <VLAN_NAME>USERS-LAX</VLAN_NAME>
+        <NTP_SERVER>10.0.0.1</NTP_SERVER>
+    </device>
+</inventory>

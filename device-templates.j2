@@ -16,12 +16,14 @@ hostname {{ HOSTNAME }}
 interface {{ INTERFACE_NAME }}
     ip address {{ IP }} {{ SUBNET_MASK }}
     no shutdown
+exit
 !
 ip default-gateway {{ DEFAULT_GATEWAY }}
 !
 ! USER VLAN
 vlan {{ VLAN_ID }}
     name {{ VLAN_NAME }}
+exit
 !
 ! SNMP
 snmp-server community public RO

@@ -1,0 +1,24 @@
+[
+    {
+        "SITE_NAME": "NYC_Site",
+        "HOSTNAME": "SW-NYC-01",
+        "INTERFACE_NAME": "Vlan1",
+        "IP": "10.10.1.11",
+        "SUBNET_MASK": "255.255.255.0",
+        "DEFAULT_GATEWAY": "10.10.1.1",
+        "VLAN_ID": 10,
+        "VLAN_NAME": "USERS-NYC",
+        "NTP_SERVER": "10.0.0.1"
+    },
+    {
+        "SITE_NAME": "LAX_Site",
+        "HOSTNAME": "SW-LAX-01",
+        "INTERFACE_NAME": "Vlan1",
+        "IP": "10.10.2.11",
+        "SUBNET_MASK": "255.255.255.0",
+        "DEFAULT_GATEWAY": "10.10.2.1",
+        "VLAN_ID": 10,
+        "VLAN_NAME": "USERS-LAX",
+        "NTP_SERVER": "10.0.0.1"
+    }
+]
