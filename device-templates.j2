@@ -1,0 +1,32 @@
+! ============================================================
+! Branch Site Master Template
+! Repo: network-templates | Branch: main
+! ============================================================
+! This is a master template for Cisco IOS switches. It includes
+! common configurations and can be customized for specific switch models.  
+!
+!
+!
+! ============================================================
+! Cisco IOS Switch — {{ SITE_NAME }}
+! =======================================================
+hostname {{ HOSTNAME }}
+!
+! Management Interface 
+interface {{ INTERFACE_NAME }}
+    ip address {{ IP }} {{ SUBNET_MASK }}
+    no shutdown
+!
+ip deafault-gateway {{ DEFAULT_GATEWAY }}
+!
+! USER VLAN
+vlan {{ VLAN_ID }}
+    name {{ VLAN_NAME }}
+!
+! SNMP
+snmp-server community public RO
+!
+! NTP
+ntp server {{ NTP_SERVER }}
+!
+end
